@@ -12,6 +12,8 @@ def draw_reg_polygon (t,num_sides,side_len):
 
 bob = turtle.Pen()
 
+### MAM: No need for the loop, since it just does one iteration.
+
 #side = 10
 for j in range (1):
     draw_reg_polygon(bob,num_sides,side_len)
